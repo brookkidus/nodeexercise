@@ -26,6 +26,14 @@ fs.appendFile('results.txt', text2, function(err, file){
      //console.log(err);
      console.log("file created");
 } )
+// const fs = require("fs");
+// const path = require("path");
+// fs.mkdir(path.join(__dirname, "static"), (err) => {
+//   if (err) {
+//     return console.log(err);
+//   }
+//   console.log("done");
+// });
 
 
 
